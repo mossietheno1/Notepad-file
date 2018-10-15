@@ -48,7 +48,7 @@ static final String UNTITLED="Untitled";
 	String plaintext;
 	Cipher c;
 	Key k;
-
+	//test for git
 	public Notepad() {
 		Security.addProvider(new BouncyCastleProvider());
 		textArea.addKeyListener(new KeyAdapter() {
